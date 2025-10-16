@@ -73,26 +73,26 @@ const Header = ()=>{
                     <nav>
                         <ul className="header-ul-mobile">
                             {/* your nav links here */}
-                            <a href="/" className="header-link">
+                            <a href="#" className="header-link">
                                 <li className="header-li">
                                     <span>Home</span>
                                 </li>
                             </a>
-                            <a href="/about" className="header-link">
+                            <a href="#about" className="header-link">
                                 <li className="header-li">
                                     <span>About</span></li>
                             </a>
-                            <a href="/experience" className="header-link">
+                            <a href="#experience" className="header-link">
                                 <li className="header-li">
                                     <span>Experience</span>
                                 </li>
                             </a>
-                            <a href="/skills" className="header-link">
+                            <a href="#skills" className="header-link">
                                 <li className="header-li">
                                     <span>Skills</span>
                                 </li>
                             </a>
-                            <a href="/contact" className="header-link">
+                            <a href="#contact" className="header-link">
                                 <li className="header-li">
                                     <span>Contact</span>
                                 </li>          
