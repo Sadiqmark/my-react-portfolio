@@ -103,10 +103,14 @@ body{
   align-items: center;
   padding:10px; 
   margin-top:20px;
-  position: inherit;
+  position: fixed;
   width: 80%;
-  top: 0;
-  margin: 24px auto;
+  top: 24px;
+  left:50%;
+  transform: translateX(-50%);
+  transition: transform 0.4s ease, opacity 0.3s ease;
+  z-index: 999;
+  
   border-radius: 99px;
   box-shadow: 0 11px 34px 0 rgba(0, 0, 0, .15);
   height: var(--nav-bar-height);
@@ -133,6 +137,15 @@ body{
 
   transition: transform 0.3s ease-in-out;
 
+}
+.header.hide {
+  transform: translateY(-120%);
+  opacity: 0;
+}
+
+.header.show {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 a, a:hover, a:visited {
@@ -191,7 +204,7 @@ a, a:hover, a:visited {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 130px;
 }
 .Header_title_h1{
   color: #fff;

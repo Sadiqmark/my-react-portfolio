@@ -34,15 +34,15 @@ const About = () =>{
                     <div className="about-us-contact">
                         <button className="about-us-contact-link">
                             <a href="/contact" className="about-us-contact-button">
-                                <span class="about-us-contact-wave"></span>
-                                <span class="about-us-contact-label">Contact Me</span>
+                                <span className="about-us-contact-wave"></span>
+                                <span className="about-us-contact-label">Contact Me</span>
                             </a>
                         </button>
 
                     </div>
                     <div className="about-us-experience-info">
                         <div className="about-us-job-info">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase w-5 h-5 mt-1 text-primary group-hover:scale-110 transition-transform"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path><rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-briefcase w-5 h-5 mt-1 text-primary group-hover:scale-110 transition-transform"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path><rect width="20" height="14" x="2" y="6" rx="2"></rect>
                             </svg>
                             <div className="about-us-job-title">
                                 <h3 className="about-us-job-currentposition">Current Position</h3>
@@ -50,7 +50,7 @@ const About = () =>{
                             </div>
                         </div>
                         <div className="about-us-job-location">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-5 h-5 mt-1 text-primary group-hover:scale-110 transition-transform"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-map-pin w-5 h-5 mt-1 text-primary group-hover:scale-110 transition-transform"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle>
                             </svg>
                             <div className="about-us-location-info">
                                 <h3 className="about-us-job-location-title">Location</h3>
@@ -60,7 +60,7 @@ const About = () =>{
                                
                         </div>
                         <div className="about-us-job-email">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail w-5 h-5 mt-1 text-primary group-hover:scale-110 transition-transform"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-mail w-5 h-5 mt-1 text-primary group-hover:scale-110 transition-transform"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
                             </svg>
                             <div className="about-us-job-email-info">
                                 <h3 className="about-us-job-email-title">Email</h3>  
