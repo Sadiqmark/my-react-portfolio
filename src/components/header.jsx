@@ -1,13 +1,11 @@
 import reactLogo from '../assets/react.svg';
 // import resume from '/changedSadiqkhan_Resume.pdf';
 import viteLogo from '/vite.svg'
-import { useState,useEffect,useCallback } from 'react';
+import { useState } from 'react';
 
 
 const Header = ()=>{
     const[open,setOpen]=useState(false)
-    
-    
     return(
         <>
         <section>
@@ -75,34 +73,34 @@ const Header = ()=>{
                     <nav>
                         <ul className="header-ul-mobile">
                             {/* your nav links here */}
-                            <a href="/" className="header-link" onClick={()=>setOpen(!open)}>
+                            <a href="/" className="header-link">
                                 <li className="header-li">
                                     <span>Home</span>
                                 </li>
                             </a>
-                            <a href="#about" className="header-link" onClick={()=>setOpen(!open)}> 
+                            <a href="/about" className="header-link">
                                 <li className="header-li">
                                     <span>About</span></li>
                             </a>
-                            <a href="#experience" className="header-link" onClick={()=>setOpen(!open)}>
+                            <a href="/experience" className="header-link">
                                 <li className="header-li">
                                     <span>Experience</span>
                                 </li>
                             </a>
-                            <a href="#skills" className="header-link" onClick={()=>setOpen(!open)}>
+                            <a href="/skills" className="header-link">
                                 <li className="header-li">
                                     <span>Skills</span>
                                 </li>
                             </a>
-                            <a href="#contact" className="header-link" onClick={()=>setOpen(!open)}>
+                            <a href="/contact" className="header-link">
                                 <li className="header-li">
                                     <span>Contact</span>
                                 </li>          
                             </a>
                         </ul>
                     </nav>
-                    <div className="toggle-mobile" >
-                        <a className='resume-button' href='/PM_SadiqKhan_Resume copy.pdf' target="_blank" rel="noopener noreferrer" onClick={()=>setOpen(!open)}>
+                    <div className="toggle-mobile">
+                        <a className='resume-button' href='/PM_SadiqKhan_Resume copy.pdf' target="_blank" rel="noopener noreferrer">
                             Resume
                         </a>
                     </div>

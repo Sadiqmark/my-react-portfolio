@@ -44,7 +44,6 @@ import Project from "./components/project.jsx";
 import './App.css'
 
 const App =()=>{
-  
   return(
     <>
         <div id="home" className="main">
