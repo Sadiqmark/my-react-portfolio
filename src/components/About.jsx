@@ -33,7 +33,7 @@ const About = () =>{
                 <div className="about-us-experience-content">
                     <div className="about-us-contact">
                         <button className="about-us-contact-link">
-                            <a href="/contact" className="about-us-contact-button">
+                            <a href="#contact" className="about-us-contact-button">
                                 <span class="about-us-contact-wave"></span>
                                 <span class="about-us-contact-label">Contact Me</span>
                             </a>
