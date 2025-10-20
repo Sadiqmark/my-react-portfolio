@@ -44,6 +44,12 @@ import Project from "./components/project.jsx";
 import './App.css'
 
 const App =()=>{
+  useEffect(() => {
+    if (window.location.hash) {
+      window.history.replaceState(null, null, window.location.pathname);
+      window.scrollTo(0, 0);
+    }
+  }, []);
   return(
     <>
         <div id="home" className="main">
@@ -57,9 +63,9 @@ const App =()=>{
           <div id="skills">
             <Skills/>
           </div>
-          {/* <div id="projects">
+          {<div id="projects">
             <Project/>
-          </div> */}
+          </div> }
           <div id="contact">  
             <Contact/>    
           </div>

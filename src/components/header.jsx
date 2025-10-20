@@ -39,9 +39,9 @@ const Header = ()=>{
                                 <span>Skills</span>
                             </li>
                         </a>
-                        <a href="#contact" className="header-link">
+                        <a href="#projects" className="header-link">
                             <li className="header-li">
-                                <span>Contact</span>
+                                <span>Freelancing</span>
                             </li>          
                         </a>
                     </ul>
@@ -92,9 +92,9 @@ const Header = ()=>{
                                     <span>Skills</span>
                                 </li>
                             </a>
-                            <a href="#contact" className="header-link" onClick={()=>setOpen(!open)}>
+                            <a href="#projects" className="header-link" onClick={()=>setOpen(!open)}>
                                 <li className="header-li">
-                                    <span>Contact</span>
+                                    <span>Freelancing Project</span>
                                 </li>          
                             </a>
                         </ul>

@@ -1,51 +1,59 @@
 import React from "react";
- // Add a CSS file for styling this section
+import grandmaimage from "../assets/grandma-image.png"
 
 const Project = () => {
     const projects = [
         {
-            title: "Portfolio Website",
-            description: "A personal portfolio website built with React and Tailwind CSS.",
-            imageUrl: "https://via.placeholder.com/300x200", // Replace with your project image URL
-            projectUrl: "https://github.com/yourusername/portfolio",
+            title: "Nitya Naivedya",
+            description: "E-commerce Website for Traditional Food Brand with Javascript and Tailwind CSS.",
+            imageUrl: grandmaimage,
+            projectUrl: "https://github.com/GGNIDHI/Nitya_Naivedya",
+            Livesite: "https://gemini-nitya.netlify.app/"
         },
-        {
-            title: "E-commerce App",
-            description: "An e-commerce platform with a shopping cart and payment gateway integration.",
-            imageUrl: "https://via.placeholder.com/300x200", // Replace with your project image URL
-            projectUrl: "https://github.com/yourusername/ecommerce-app",
-        },
-        {
-            title: "Weather App",
-            description: "A weather forecasting app using OpenWeatherMap API.",
-            imageUrl: "https://via.placeholder.com/300x200", // Replace with your project image URL
-            projectUrl: "https://github.com/yourusername/weather-app",
-        },
+        
+  
     ];
 
     return (
         <section id="projects" className="project-section">
             <div className="project-container">
-                <h2 className="project-title">Projects</h2>
+                <h2 className="project-title">Freelancing Project</h2>
                 <div className="project-grid">
                     {projects.map((project, index) => (
                         <div key={index} className="project-card">
-                            <img
-                                src={project.imageUrl}
-                                alt={`${project.title} screenshot`}
-                                className="project-image"
-                            />
-                            <div className="project-content">
-                                <h3 className="project-name">{project.title}</h3>
-                                <p className="project-description">{project.description}</p>
-                                <a
-                                    href={project.projectUrl}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="project-link"
-                                >
-                                    View Project
-                                </a>
+                            <div className="project-card-inner">
+                                {/* FRONT SIDE */}
+                                <div className="project-card-front">
+                                    <img
+                                        src={project.imageUrl}
+                                        alt={project.title}
+                                        className="project-image"
+                                    />
+                                    <h3 className="project-name">{project.title}</h3>
+                                </div>
+
+                                {/* BACK SIDE */}
+                                <div className="project-card-back">
+                                    <p className="project-description">{project.description}</p>
+                                    <div className="project-shareable-links">
+                                        <a
+                                            href={project.Livesite}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="project-link"
+                                        >
+                                            View Project
+                                        </a>
+                                        <a
+                                            href={project.projectUrl}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="project-link"
+                                        >
+                                            Github
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     ))}
