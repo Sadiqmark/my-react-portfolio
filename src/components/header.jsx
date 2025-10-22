@@ -47,7 +47,7 @@ const Header = ()=>{
                     </ul>
                 </nav>
                 <div className={"toggle-web"}>
-                    <a className='resume-button' href='/PM_SadiqKhan_Resume copy.pdf' target="_blank" rel="noopener noreferrer">
+                    <a className='resume-button' href='/resume-Sadiqkhan.pdf' target="_blank" rel="noopener noreferrer">
                         Resume
                     </a>
                 </div>
